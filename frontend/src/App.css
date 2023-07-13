@@ -1,0 +1,178 @@
+.App {
+  font-family: sans-serif;
+  width: 1200px;
+  margin: 20px auto;
+  color: #333333;
+  font-size: 16px;
+}
+.user-flex-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.title {
+  text-align: center;
+  
+}
+button:hover{
+scale: 1.05;
+}
+
+.user-table {
+  flex: 1;
+  width: 85%;
+}
+.user-form{
+  position: absolute;
+ flex: 1;
+  width: 40%;
+  left: 30%;
+  top: 20%;
+
+  
+  
+ 
+  background-color: gray;
+ 
+}
+.form-row {
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.form-error {
+  color: red;
+  font-size: 14px;
+  line-height: 26px;
+}
+.form-error:before {
+  content: "*";
+  display: inline-block;
+  margin-right: 4px;
+  color: #f5222d;
+}
+.form-row label {
+  display: block;
+  margin-bottom: 6px;
+}
+.form-row input {
+  width: 86%;
+  padding: 4px;
+  line-height: 26px;
+  border-radius: 4px;
+  border: 1px solid #bababa;
+}
+input:focus,
+input:hover {
+  outline: none;
+  border-color: #40a9f3;
+}
+button {
+  min-width: 68px;
+  padding: 4px 8px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #bababa;
+  background: #fff;
+  cursor: pointer;
+}
+.user-form button:first-child {
+  color: #fff;
+  border-color: #40a9f3;
+  background: #40a9f3;
+}
+button + button {
+  margin-left: 10px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+}
+td {
+  border-bottom: 1px solid #bababa;
+}
+thead {
+  border-bottom: 2px solid #bababa;
+}
+th,
+td {
+  text-align: left;
+  padding: 0.5em 0;
+}
+td:last-child {
+  width: 40%;
+}
+
+.layoutParent{
+  height: 100dvh;
+  width:100dvw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.headerParent{
+  width: 100dvw;
+  height: 100px;
+  background-color: #2226e2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.headerLinks{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.headerLinks:hover{
+  scale: 1.05;
+  border-bottom: 1px solid white;
+}
+
+.homepage{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: linear-gradient(90deg, rgba(128,138,236,1) 0%, rgba(47,97,250,1) 35%, rgba(135,181,255,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.employeePage{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.titleContainer{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ width: 90%;
+ margin-left: 10px;
+}
+
+.addBtn{
+  background-color: #2226e2;
+  color: white;
+  font-size: 14px;
+}
+
+.editbtn{
+  background-color: rgb(255, 153, 0);
+}
+.delbtn{
+  background-color: red;
+}
